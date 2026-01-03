@@ -13,7 +13,7 @@ unzip instruction_dataset.zip -d mt-repro
 cd mt-repro
 
 ## Instruction data
-Fields: id, src->tgt, instruction, input, output.score
+Fields: id, src->tgt, instruction, input, output, score
 
 ## Running scripts
 python code_zh_ug/self_instruct_zh_ug.py
